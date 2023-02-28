@@ -202,7 +202,7 @@
 		AA0C82F229AEBF4D00E25EE4 /* prims.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = prims.playground; sourceTree = "<group>"; };
 		AA0C82F329AEBF4D00E25EE4 /* .keep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
 		AA0C82F629AEBF4D00E25EE4 /* LICENSE.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
-		AA0C82F829AEBF4D00E25EE4 /* Stacks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stacks.playground; sourceTree = "<group>"; };
+		AA0C82F829AEBF4D00E25EE4 /* Stacks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stacks.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA0C82FA29AEBF4D00E25EE4 /* Stacks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stacks.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA0C82FD29AEBF4E00E25EE4 /* LICENSE.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
 		AA0C82FF29AEBF4E00E25EE4 /* quicksort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = quicksort.playground; sourceTree = "<group>"; };
@@ -419,7 +419,7 @@
 		AA0C84F529AEC0F900E25EE4 /* .keep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .keep; sourceTree = "<group>"; };
 		AA0C84F629AEC0F900E25EE4 /* GraphChallenge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GraphChallenge.playground; sourceTree = "<group>"; };
 		AA0C84F929AEC0F900E25EE4 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
-		AA0C84FB29AEC0F900E25EE4 /* Stacks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stacks.playground; sourceTree = "<group>"; };
+		AA0C84FB29AEC0F900E25EE4 /* Stacks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stacks.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA0C84FD29AEC0F900E25EE4 /* Stacks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Stacks.playground; sourceTree = "<group>"; };
 		AA0C850029AEC0F900E25EE4 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
 		AA0C850229AEC0F900E25EE4 /* BinaryTrees.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTrees.playground; sourceTree = "<group>"; };

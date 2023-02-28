@@ -1,3 +1,4 @@
+import Combine
 public struct Stack<Element> {
 
     private var storage: [Element]
@@ -71,4 +72,30 @@ example(of: "initialising a stack with array literals") {
     var stack: Stack = [1.0, 2.0, 3.0, 4.0]
     stack.pop()
     print(stack)
+}
+
+func reverseArrayUsingStack<Element>(array: [Element]) {
+    var stack: Stack = .init(elements: array)
+    while !stack.isEmpty() {
+        print(stack.pop()!)
+    }
+}
+
+reverseArrayUsingStack(array: [1, 2, 3])
+
+func checkBalancedParentheses(string: String) -> Bool {
+    var stack = Stack<Character>()
+
+    for c in string {
+        if c == "(" {
+            stack.push(element: c)
+        } else if c == ")" {
+            if stack.isEmpty() {
+                return false
+            }
+            stack.pop()
+        }
+    }
+
+    return stack.isEmpty()
 }
